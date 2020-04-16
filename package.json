@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@unform/core": "^2.0.0",
+    "@unform/web": "^2.0.0",
     "history": "^4.10.1",
     "polished": "^3.5.1",
     "prop-types": "^15.7.2",
