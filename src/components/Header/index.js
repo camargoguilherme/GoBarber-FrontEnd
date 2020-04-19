@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '~/assets/logo-purple.svg';
 
+import Notifications from '~/components/Notifications';
+
+import logo from '~/assets/logo-purple.svg';
 import { Container, Content, Profile } from './styles';
 export default function Components() {
   return (
@@ -13,6 +15,7 @@ export default function Components() {
         </nav>
 
         <aside>
+          <Notifications />
           <Profile>
             <div>
               <strong>Guilherme Camargo</strong>
